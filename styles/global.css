@@ -1,16 +1,19 @@
 :root {
-  /* Produto */
+  /* Colors */
   --brand-color: #ef5f4c;
-
-  /* Shape */
   --background-color: #ffffff;
   --surface-color: #f5f5f5;
   --skeleton-color: #d9d9d9;
   --shape-transparency: #ffffff;
-
-  /* Text */
   --text-color-primary: #313131;
   --text-color-secondary: #6c6c6c;
+
+  /* Text */
+  --font-family: 'Poppins', sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16/150% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
 }
 
 * {
@@ -20,6 +23,7 @@
 }
 
 body {
+  font: var(--text);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
