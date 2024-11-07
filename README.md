@@ -57,4 +57,4 @@ Este projeto faz uso das seguintes técnicas avançadas de CSS:
 - Implementar um modo escuro usando apenas CSS.
 - Incluir uma seção de destaque para viagens favoritas.
 
-## 🧑‍🍳 Autor Feito com 💖 por Rafael Neves.
+## 🧑‍🍳 Feito com 💖 por Rafael Neves.
