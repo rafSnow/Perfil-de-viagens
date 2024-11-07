@@ -14,8 +14,15 @@ header .container {
   gap: 32px;
 }
 
-#progile > div {
+#profile > div {
   max-width: 384px;
+}
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #profile h1 {
@@ -36,4 +43,35 @@ header .container {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+@media (max-width: 768px) {
+  header {
+    padding-block: 16px;
+  }
+
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #profile > div {
+    max-width: 100%;
+  }
+
+  #info {
+    width: 100%;
+    gap: 12px;
+  }
 }

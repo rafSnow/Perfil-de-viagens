@@ -19,3 +19,30 @@ nav ul li:last-child img {
   object-fit: cover;
   border-radius: 50%;
 }
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: none; /* Ocultar menu por padrão */
+    width: 100%;
+  }
+
+  /* Exibir menu quando ativo */
+  nav.active ul {
+    display: flex;
+  }
+
+  /* Botão de menu tipo hambúrguer */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+  }
+}
